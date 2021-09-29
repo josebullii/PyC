@@ -11,6 +11,6 @@ Algoritmo Hola_Mundo
 	nombre = "Jose Pulido";
 	edad = 17;
 	
-	Escribir nombre + " tiene ", edad, " a�os y es ", Verdadero;
+	Escribir nombre + " tiene ", edad, " años y es ", Verdadero; // Cambio para la clase del día 30
 
 FinAlgoritmo
