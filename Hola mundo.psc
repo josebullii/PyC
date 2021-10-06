@@ -9,18 +9,19 @@ Algoritmo Hola_Mundo
 	sexo = Verdadero;
 	edadMas10 = 0;
 	
-	Escribir "¿Cuál es tu nombre?";
+	Escribir "ï¿½Cuï¿½l es tu nombre?";
 	Leer nombre;
 	
-	Escribir "¿Qúe edad tienes?";
+	Escribir "ï¿½Qï¿½e edad tienes?";
 	Leer edad;
 	
 	// nombre = "Jose Pulido";
 	// edad = 17;
 	edadMas10 = edad + 10;
 	
-	// Edad dentro de 10 años
+	// Edad dentro de 10 aï¿½os
 	
-	Escribir "Te llamas " nombre, " tienes " edad " años y dentro de 10 años tendrás " edadMas10;
+	Escribir "Te llamas " nombre, " tienes " edad " aï¿½os y dentro de 10 aï¿½os tendrï¿½s " edadMas10;
+	Escribir nombre + " tiene ", edad, " aÃ±os y es ", Verdadero; // Cambio para la clase del dÃ­a 30
 
 FinAlgoritmo
