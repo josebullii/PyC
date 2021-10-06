@@ -1,16 +1,26 @@
 Algoritmo Hola_Mundo
 	
-	Definir Nombre Como Caracter;
-	Definir Edad Como Entero;
-	Definir Sexo Como Logico; // Verdadero para Hombre / Falso para Mujer
+	Definir nombre Como Caracter;
+	Definir edad, edadMas10 Como Entero;
+	Definir sexo Como Logico; // Verdadero para Hombre / Falso para Mujer
 	
 	nombre = "";
 	edad = 0;
 	sexo = Verdadero;
+	edadMas10 = 0;
 	
-	nombre = "Jose Pulido";
-	edad = 17;
+	Escribir "¿Cuál es tu nombre?";
+	Leer nombre;
 	
-	Escribir nombre + " tiene ", edad, " años y es ", Verdadero;
+	Escribir "¿Qúe edad tienes?";
+	Leer edad;
+	
+	// nombre = "Jose Pulido";
+	// edad = 17;
+	edadMas10 = edad + 10;
+	
+	// Edad dentro de 10 años
+	
+	Escribir "Te llamas " nombre, " tienes " edad " años y dentro de 10 años tendrás " edadMas10;
 
 FinAlgoritmo
