@@ -1,0 +1,18 @@
+Algoritmo Ejercicio1
+	
+	Definir numA, numB, numC Como Entero;
+	
+	Escribir "Dime el valor de A";
+	Leer numA;
+	Escribir "Dime al valor de B";
+	Leer numB;
+	
+	numC = numA;
+	numA = numB;
+	numB = numC;
+	
+	Escribir "El valor de A es " numA;
+	Escribir "El valor de B es " numB;
+	
+	
+FinAlgoritmo

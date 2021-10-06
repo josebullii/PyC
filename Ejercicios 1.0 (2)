@@ -1,0 +1,17 @@
+Algoritmo Ejercicio2
+	
+	Definir num1, num2 Como Entero;
+	Definir div Como Real;
+	
+	Escribir "Dime dos números";
+	Leer num1;
+	Leer num2;
+	
+	div = num1 / num2;
+	
+	Escribir "La suma de " num1 " y " num2 " es " (num1 + num2);
+	Escribir "La resta de " num1 " y " num2 " es " (num1 - num2);
+	Escribir "El producto de  " num1 " y " num2 " es " (num1 * num2);
+	Escribir "El cociente de  " num1 " y " num2 " es " (num1 / num2);
+	
+FinAlgoritmo
