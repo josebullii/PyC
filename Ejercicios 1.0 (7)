@@ -1,0 +1,22 @@
+Algoritmo Ejercicio7
+	
+	Definir num1, num2 Como Entero;
+	Definir niños, niñas Como Real;
+	
+	num1 = 0;
+	num2 = 0;
+	niños = 0;
+	niñas = 0;
+	
+	Escribir "Introduce el número de niños";
+	Leer num1;
+	Escribir "Introduce el número de niñas";
+	Leer num2;
+	
+	niños = (num1 / (num1 + num2)) * 100;
+	niñas = (num2 / (num1 + num2)) * 100;
+	
+	Escribir "El porcentaje de niños es del " niños "%";
+	Escribir "El porcentaje de niñas es del " niñas "%";
+	
+FinAlgoritmo

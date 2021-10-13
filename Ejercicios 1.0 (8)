@@ -1,0 +1,14 @@
+Algoritmo Ejercicio8
+	
+	Definir num1, importe Como Real;
+	num1 = 0;
+	importe = 0;
+	Escribir "Introduce el importe total";
+	Leer num1;
+	
+	importe = num1 - (num1 * (15/100));
+	// num1*0.85 \ 1.15
+	
+	Escribir "El importe total que debe pagar es " importe;
+	
+FinAlgoritmo

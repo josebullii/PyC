@@ -1,0 +1,17 @@
+Algoritmo Ejercicio6
+	
+	Definir num1 Como Real;
+	
+	num1 = 0;
+	
+	Escribir "*** SE PUEDEN INTRODUCIR NÚMEROS NEGATIVOS ***";
+	Escribir "Introduce un número";
+	Leer num1;
+	
+	Si (num1<=0) Entonces
+		Escribir "ERROR";
+	SiNo
+		Escribir "Del número " num1 " su potencia es " num1^2  " y su raíz es " RAIZ(num1);
+	FinSi
+	
+FinAlgoritmo
