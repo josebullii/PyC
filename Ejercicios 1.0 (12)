@@ -1,0 +1,11 @@
+Algoritmo Ejercicio12
+	
+	Definir i Como Entero;
+	i = 0;
+	
+	Repetir
+		i = i + 1;
+		Escribir "El cuadrado de los 9 primeros números es " i^2;
+	Hasta Que i == 9
+	
+FinAlgoritmo

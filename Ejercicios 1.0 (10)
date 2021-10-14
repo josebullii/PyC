@@ -1,0 +1,20 @@
+Algoritmo Ejercicio10
+	
+	Definir num1, num2 Como Entero;
+	num1 = 0;
+	
+	Mientras num1 == 0
+		
+		Escribir "Introduce un número";
+		Leer num1;
+		
+	FinMientras
+	
+	Si (num1 MOD 2) == 0 Entonces
+		Escribir "El número es par";
+	SiNo
+		Escribir "El número es impar";
+	FinSi
+
+FinAlgoritmo
+

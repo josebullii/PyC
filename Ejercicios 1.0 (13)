@@ -1,0 +1,20 @@
+Algoritmo Ejercicio13
+	
+	Definir n, suma, aux Como Entero;
+	n = 0;
+	suma = 0;
+	aux = 0;
+	Escribir "Introduce un número";
+	Leer n;
+	aux = n;
+	
+	Repetir
+		n = n - 1;
+		suma = n + suma;
+	Hasta Que n == 0
+	
+	Escribir "La suma de los " aux " números naturales es " suma;
+
+	
+	
+FinAlgoritmo
