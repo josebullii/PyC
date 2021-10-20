@@ -1,0 +1,21 @@
+Algoritmo Ejercicio15
+	
+	Definir n1, contador, suma Como Entero;
+	n1 = 0;
+	contador = 0;
+	suma = 0;
+	
+	Escribir "SE PUEDEN INTRODUCIR VALORES NEGATIVOS";
+	Escribir "Introduce un número";
+	
+	Repetir
+		Leer n1;
+		Si n1 != -1 Entonces
+			contador = contador + 1;
+			suma = suma + n1;
+		FinSi
+	Hasta Que n1 == -1
+	
+	Escribir suma / contador;
+	
+FinAlgoritmo

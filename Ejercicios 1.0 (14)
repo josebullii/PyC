@@ -1,0 +1,23 @@
+Algoritmo Ejercicio14
+	
+	Definir n1, aux, suma Como Entero;
+	n1 = 0;
+	aux = 0;
+	suma = 0;
+	
+	Escribir "Introduce un número";
+	Leer n1;
+	
+	aux = n1;
+	
+	Mientras aux > 0 Hacer
+		Si (n1 MOD 2) == 0 Entonces
+			suma = n1 + suma;
+			aux = aux - 1;
+		FinSi
+		n1 = n1 + 1;
+	Fin Mientras
+	
+	Escribir suma;
+	
+FinAlgoritmo
