@@ -1,0 +1,37 @@
+Algoritmo Ejercicio1
+	
+	Definir numempleados, salario, salmenor, salmayor, salentre Como Entero;
+	numempleados = 0;
+	salario = 0;
+	salmayor = 0;
+	salmenor = 0;
+	salentre = 0;
+	
+	Escribir "Cuantos empleados tienes tienes";
+	Leer numempleados;
+	
+	Repetir
+		Escribir "Introduce el salario mensual de cada uno de tus empleados";
+		Leer salario;
+		
+		numempleados = numempleados - 1;
+		
+		Si salario < 200 Entonces
+			salmenor = salmenor + 1;
+		FinSi
+		
+		Si salario >= 200 y salario <= 500 Entonces
+			salentre = salentre + 1;
+		FinSi
+		
+		Si salario > 500 Entonces
+			salmayor = salmayor + 1;
+		FinSi
+		
+	Hasta Que numempleados = 0;
+	
+	Escribir "El número de empleados con un salario menor a 200 euros es " salmenor;
+	Escribir "El número de empleados con un salario entre 200 y 500 euros es " salentre;
+	Escribir "El número de empleados con un salario mayor a 200 euros es " salmayor; 
+	
+FinAlgoritmo
