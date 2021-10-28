@@ -1,0 +1,59 @@
+Algoritmo Ejercicio2
+	
+	Definir importe, total, cobrar, vuelta, vuelta1, importeIva, importe1 Como Real;
+	Definir IVA Como Real;
+	importe = 0;
+	IVA = 0.21; //Constante
+	total = 0;
+	cobrar = 0;
+	vuelta = 0;
+	vuelta1 = 0;
+	importeIva = 0;
+	importe1 = 0;
+	
+	Repetir
+		
+		Escribir "¿Cuál es el importe total de compra?";
+		leer importe;
+		
+		Si importe <> 0 Entonces
+			importeIva = IVA * importe;
+			total = importe + importeIva;
+			
+			Escribir "El IVA a pagar es " importeIva;
+			Escribir "El importe total es " total;
+			Escribir "*******************************";
+			Escribir "¿Cuánto va a pagar el cliente?";
+			leer cobrar;
+			
+			Mientras cobrar < total Hacer
+				
+				Si cobrar > total Entonces
+					vuelta = cobrar - total;
+					Escribir "Tiene que devolver " vuelta " euro/s al cliente";
+					Escribir "*************************";
+				SiNo
+					Repetir
+						
+						vuelta1 = total - cobrar;
+						Escribir "Aún debes " vuelta1;
+						Escribir "¿Cuánto quieres pagar?";
+						Leer importe1;
+						
+						Si importe1 > vuelta1; Entonces
+							Escribir "";
+							
+						FinSi
+						
+					Hasta Que cobrar = total;
+					
+				FinSi 
+				
+			Fin Mientras
+			
+		FinSi
+		
+	Hasta Que importe <= 0;
+	
+
+FinAlgoritmo
