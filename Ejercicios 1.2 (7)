@@ -1,0 +1,24 @@
+Algoritmo Ejercicio7
+	
+	Definir  i, sumapares, sumaimpares Como Entero;
+	sumapares = 0;
+	sumaimpares = 0;
+	
+	Para i = 0 Hasta 100 Con Paso 1 Hacer
+		Escribir i;
+		
+		Si i MOD 2 = 0 Entonces
+			sumapares = sumapares + i;
+		SiNo
+			sumaimpares = sumaimpares + i;
+		FinSi
+		
+		Si i = 100 Entonces
+			Escribir "**************************************";
+			Escribir "**************************************";
+			Escribir "La suma de los números pares es " sumapares;
+			Escribir "La suma de los números impares es " sumaimpares;
+		FinSi
+	Fin Para
+	
+FinAlgoritmo

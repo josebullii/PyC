@@ -1,0 +1,17 @@
+Algoritmo Ejercicio6
+	
+	Definir i, num, suma Como Entero;
+	num = 0;
+	
+	Escribir "Dime un número";
+	Leer num;
+	
+	Para i = 3 Hasta num Con Paso 3 Hacer
+		suma = suma + i;
+		
+		Si i = num Entonces
+			Escribir suma;
+		FinSi
+	Fin Para
+	
+FinAlgoritmo

@@ -1,0 +1,11 @@
+Algoritmo Ejercicio5
+	
+	Definir letra Como Caracter;
+	letra = "";
+	
+	Repetir
+		Escribir "Dime una letra";
+		Leer letra;
+	Hasta Que letra = "S" o letra = "N"
+	
+FinAlgoritmo

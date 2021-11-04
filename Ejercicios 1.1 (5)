@@ -9,8 +9,9 @@ Algoritmo Ejercicio5
 	Leer num;
 	
 	Repetir
-		contador = contador + 1;
+		
 		multiplicacion = num * contador;
+		contador = contador + 1;
 		
 		Escribir "La tabla del " num " es: " multiplicacion;
 		
