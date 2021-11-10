@@ -3,6 +3,9 @@ Algoritmo Ejercicio8
 	Definir num Como Real;
 	num = 0;
 	
+	Para variable_numerica<-valor_inicial Hasta valor_final Con Paso paso Hacer
+		secuencia_de_acciones
+	Fin Para
 	
 	
 FinAlgoritmo
