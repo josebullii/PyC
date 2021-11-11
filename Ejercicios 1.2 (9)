@@ -1,0 +1,14 @@
+Algoritmo Ejercicio9
+	
+	Definir contador, num Como Entero;
+	contador = 0;
+	num = 0;
+	
+	Repetir
+		Para num = 1 Hasta 10 Con Paso 1 Hacer
+			Escribir num;
+		Fin Para
+		contador = contador + 1;
+	Hasta Que contador == 10;
+	
+FinAlgoritmo

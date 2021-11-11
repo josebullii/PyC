@@ -1,0 +1,20 @@
+Algoritmo Ejercicio10
+	
+	Definir frase, letra Como Caracter;
+	Definir num, numletra, i Como Entero;
+	frase = "";
+	letra = "";
+	num = 0;
+	numletra = 0;
+	
+	Escribir "Escribe una frase";
+	Leer frase;
+	
+	num = Longitud(frase);
+	
+	Para i = 0 Hasta num Con Paso 1 Hacer
+		Escribir SubCadena(frase,0,num);
+	Fin Para
+	
+	
+FinAlgoritmo

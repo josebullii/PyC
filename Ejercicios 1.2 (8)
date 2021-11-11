@@ -1,11 +1,32 @@
 Algoritmo Ejercicio8
 	
-	Definir num Como Real;
+	Definir num, nummay, nummen, contador Como Real;
 	num = 0;
+	nummay = 0;
+	nummen = 0;
+	contador = 0;
 	
-	Para variable_numerica<-valor_inicial Hasta valor_final Con Paso paso Hacer
-		secuencia_de_acciones
-	Fin Para
+	Escribir "Dime un número";
+	Leer num;
+	nummay = num;
+	nummen = num;
 	
+	Repetir
+		Escribir "Escribe otro número";
+		Leer num;
+		contador = contador + 1;
+		
+		Si num > nummay Entonces
+			nummay = num;
+		FinSi
+		
+		Si num < nummen Entonces
+			nummen = num;
+		FinSi
+		
+	Hasta Que contador == 4
+	
+	Escribir "El número mayor es " nummay;
+	Escribir "El número menor es " nummen;
 	
 FinAlgoritmo
