@@ -1,0 +1,32 @@
+Algoritmo Ejercicio3
+	
+	Definir nombre, letra, vocales Como Caracter;
+	definir tam, i,j, contador, contador2 como Entero;
+	nombre = "";
+	contador = 0;
+	contador2 =0;
+	vocales = "aeiou";
+	
+	Escribir "Escribe un nombre";
+	leer nombre;
+	
+	tam = Longitud (nombre);
+	Para i = 0 Hasta tam Con Paso 1 Hacer
+		letra = Subcadena(nombre,i,i);
+		si ((letra == "a") o (letra == "e") o (letra == "i") o (letra == "o") o (letra == "u")) Entonces
+			contador = contador + 1;
+		FinSi
+		
+		Para j=0 Hasta Longitud(vocales)-1 Con Paso 1 Hacer
+			si (letra ==Subcadena(vocales,j,j)) Entonces
+				contador2= contador2 +1;
+			FinSi
+		Fin Para
+		
+	Fin Para
+	
+	Escribir "";
+	Escribir "Tu frase tiene " contador " vocales" ;
+	Escribir "Tu frase tiene " contador2 " vocales" ;
+	
+FinAlgoritmo

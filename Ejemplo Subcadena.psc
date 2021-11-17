@@ -14,7 +14,7 @@ Algoritmo Ejemplo
 		FinSi
 	Fin Para
 	
-	Escribir "Tu frase tiene " tam " caracteres" ;
+	
 	Escribir SubCadena(frase,0,tam);
 	
 FinAlgoritmo

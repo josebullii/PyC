@@ -1,0 +1,17 @@
+Algoritmo Ejercicio1
+	
+	Definir nombre Como Caracter;
+	definir tam, i como Entero;
+	nombre = "";
+	
+	Escribir "Escribe un nombre";
+	leer nombre;
+	
+	tam = Longitud (nombre);
+	Para i = tam Hasta 0 Con Paso -1 Hacer
+		Escribir Sin Saltar Subcadena(nombre,i,i);
+	Fin Para
+	
+	Escribir "";
+	
+FinAlgoritmo

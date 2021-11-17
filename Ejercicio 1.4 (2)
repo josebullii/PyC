@@ -1,0 +1,27 @@
+Algoritmo Ejercicio2
+	
+	Definir nombre Como Caracter;
+	definir tam, i como Entero;
+	Definir bandera como logico;
+	nombre = "";
+	bandera = Verdadero;
+	Escribir "Escribe un nombre";
+	leer nombre;
+	nombre = Minusculas(nombre);
+	
+	tam = Longitud (nombre);
+	Para i = 0 Hasta tam Con Paso 1 Hacer
+		Si bandera==Verdadero Entonces
+			Escribir Sin Saltar Mayusculas(Subcadena(nombre,i,i));
+			bandera = falso;
+		SiNo
+			Escribir Sin Saltar Subcadena(nombre,i,i);
+			bandera = Verdadero;
+		FinSi
+		
+	Fin Para
+	
+	Escribir "";
+	
+	
+FinAlgoritmo
