@@ -1,0 +1,49 @@
+Algoritmo Ejercicio4
+	
+	Definir nombre, vocales, letra Como Caracter;
+	Definir tam, i, contadorA, contadorE, contadorI, contadorO, contadorU Como Entero;
+	nombre = "";
+	i = 0;
+	contadorA = 0;
+	contadorE = 0;
+	contadorI = 0;
+	contadorO = 0;
+	contadorU = 0;
+	vocales = "";
+	
+	Escribir "Escribe un nombre";
+	Leer nombre;
+	
+	tam = Longitud (nombre);
+	Para i=0 Hasta tam Con Paso 1 Hacer
+		letra = Subcadena(nombre,i,i);
+		
+		Si (letra == "a") Entonces
+			contadorA = contadorA + 1;
+			vocales = vocales + "a";
+		FinSi
+		
+		Si (letra == "e") Entonces
+			contadorE = contadorE + 1;
+			vocales = vocales + "e";
+		FinSi
+		
+		Si (letra == "i") Entonces
+			contadorI = contadorI + 1;
+			vocales = vocales + "i";
+		FinSi
+		
+		Si (letra == "o") Entonces
+			contadorO = contadorO + 1;
+			vocales = vocales + "o";
+		FinSi
+		
+		Si (letra == "u") Entonces
+			contadorU = contadorU + 1;
+			vocales = vocales + "u";
+		FinSi
+	Fin Para
+	
+	Escribir vocales;
+	
+FinAlgoritmo
