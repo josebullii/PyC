@@ -1,0 +1,31 @@
+Algoritmo Ejercicio4Bien
+	
+	Definir vocales, nombre, aux Como Caracter;
+	Definir i, j Como Entero;
+	//Definir bandera Como Logico;
+	
+	vocales = "aeiou";
+	//bandera = falso;
+	
+	Escribir "Dime un nombre";
+	Leer nombre;
+	
+	Para i=0 Hasta Longitud(vocales) Con Paso 1 Hacer
+		aux = Subcadena(vocales,i,i);
+		//bandera = falso;
+		
+		Para j=0 Hasta Longitud(nombre) Con Paso 1 Hacer
+			
+			Si (aux == Subcadena(nombre,j,j)) Entonces//y (bandera == falso)) 
+				Escribir Sin Saltar aux;
+				//bandera = Verdadero;
+				j = Longitud(nombre);
+			FinSi
+			
+		Fin Para
+		
+	Fin Para
+	
+	Escribir "";
+	
+FinAlgoritmo

@@ -1,0 +1,21 @@
+Algoritmo Ejercicio5
+	
+	Definir frase Como Caracter;
+	Definir contadorpalabras, i, tam Como Entero;
+	frase = "";
+	contadorpalabras = 0;
+	
+	Escribir "Escribe una frase";
+	Leer frase;
+	
+	tam = Longitud(frase) + 1;
+	Para i = -1 Hasta tam Hacer
+		
+		Si Subcadena(frase,i,i) == " " Entonces
+			contadorpalabras = contadorpalabras + 1;
+		FinSi
+		
+	FinPara
+	
+	Escribir "Esta frase tiene " contadorpalabras " palabra/s";
+FinAlgoritmo

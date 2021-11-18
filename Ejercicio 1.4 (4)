@@ -18,27 +18,27 @@ Algoritmo Ejercicio4
 	Para i=0 Hasta tam Con Paso 1 Hacer
 		letra = Subcadena(nombre,i,i);
 		
-		Si (letra == "a") Entonces
+		Si (letra == "a") y contadorA == 0 Entonces
 			contadorA = contadorA + 1;
 			vocales = vocales + "a";
 		FinSi
 		
-		Si (letra == "e") Entonces
+		Si (letra == "e") y contadorE == 0 Entonces
 			contadorE = contadorE + 1;
 			vocales = vocales + "e";
 		FinSi
 		
-		Si (letra == "i") Entonces
+		Si (letra == "i") y contadorI == 0 Entonces
 			contadorI = contadorI + 1;
 			vocales = vocales + "i";
 		FinSi
 		
-		Si (letra == "o") Entonces
+		Si (letra == "o") y contadorO == 0 Entonces
 			contadorO = contadorO + 1;
 			vocales = vocales + "o";
 		FinSi
 		
-		Si (letra == "u") Entonces
+		Si (letra == "u") y contadorU == 0 Entonces
 			contadorU = contadorU + 1;
 			vocales = vocales + "u";
 		FinSi
