@@ -1,27 +1,31 @@
 Algoritmo Ejercicio6
 	
-	Definir nombre, auxnombre Como Caracter;
-	Definir i, tam Como Entero;
-	Definir bandera Como Logico;
+	Definir nombre, letra Como Caracter;
+	Definir i, j Como Entero;
+	//Definir bandera Como Logico;
 	nombre = "";
-	bandera = Verdadero;
+	//bandera = Falso;
 	
 	Escribir "Escribe un nombre";
 	Leer nombre;
 	
-	auxnombre = minusculas(nombre);
-	tam = Longitud(nombre);
+	nombre = minusculas(nombre);
 	
-	Para i = -1 Hasta tam Hacer
+	Escribir Sin Saltar Mayusculas(subcadena(nombre,0,0));
+	
+	Para i = 1 Hasta Longitud(nombre) Hacer
 		
-		Si Subcadena(nombre,i,i) = " " Entonces
-			bandera = Verdadero;
-			Si bandera = Verdadero Entonces
-				Escribir Subcadena(nombre,i,i);
-			FinSi
+		letra = subcadena(nombre,i,i);
+		Si Subcadena(nombre,i,i) == " " Entonces
+			//bandera = Verdadero;
+			Escribir Sin Saltar " " mayusculas(subcadena(nombre,i+1,i+1));
+			i = i + 1;
+		SiNo
+			Escribir Sin Saltar letra;
 		FinSi
 		
 	FinPara
 	
+	Escribir " ";
 	
 FinAlgoritmo
