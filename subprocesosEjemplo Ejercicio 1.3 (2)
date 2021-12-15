@@ -1,0 +1,36 @@
+Funcion media <- calcular_media (vNum, tam)
+	
+	Definir suma, i Como Entero;
+	Definir media Como Real;
+	Para i = 0 hasta tam - 1 Con Paso 1 Hacer
+		Leer vNum[i];
+		suma = suma + vNum[i];
+	FinPara
+	
+	media = suma / tam;
+Fin Funcion
+
+SubProceso ejer2 (vNum, tam)
+	
+	Definir suma, i Como Entero;
+	Definir media Como Real;
+	Para i = 0 hasta tam - 1 Con Paso 1 Hacer
+		Leer vNum[i];
+		suma = suma + vNum[i];
+	FinPara
+	
+	media = suma / tam;
+	Escribir "La media es " media;
+FinSubProceso
+
+Algoritmo subprocesosEjemplo
+	
+	Definir vNum Como Entero;
+	definir media como real;
+	Dimension vNum[5];
+	
+	ejer2(vNum,5);
+	//media = calcular_media (vNum,5);
+	//Escribir "La media es " media;
+	
+FinAlgoritmo

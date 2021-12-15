@@ -1,15 +1,15 @@
-Algoritmo Ejercicio1
+Algoritmo Ejer31
 	
-	Definir num, vNum, i, TAM, media Como Entero;
-	TAM = 10;
-	Dimension vNum[TAM];
+	Definir vNum,i,suma Como Entero;
+	Definir media Como Real;
+	Dimension vNum[5];
+	suma = 0;
 	
-	Para i = 0 Hasta TAM - 1 Con Paso 1 Hacer
-		Escribir "Dime un número";
-		Leer num;
+	Para i=0 hasta 4 Con Paso 1 Hacer
+		Leer vNum[i];
+		suma = suma + vNum[i];
 	FinPara
 	
-	media = vNum[TAM - 1] / TAM;
-	Escribir media;
+	Escribir "La media es: " (suma/5);
 	
 FinAlgoritmo
